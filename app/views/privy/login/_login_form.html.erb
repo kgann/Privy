@@ -1,0 +1,15 @@
+<%=form_for Privy::User.new, :method => 'post', :url => login_path do |form| %>
+  <%=flash_errors %>
+
+  <p>
+    <%= form.label :username %>
+    <%= form.text_field :username %>
+  </p>
+
+  <p>
+    <%= form.label :password %>
+    <%= form.password_field :password %>
+  </p>
+
+  <%= form.submit 'Login' %>
+<% end %>

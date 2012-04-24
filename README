@@ -1,0 +1,5 @@
+#gemfile
+gem 'privy'
+
+#console
+rails generate privy
