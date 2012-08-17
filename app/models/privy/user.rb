@@ -11,6 +11,6 @@ module Privy
     def self.logged_in?(session)
       session[:username] && session[:user_id]
     end
-
+    THIS IS THE NEW_STUFF BRANCH
   end
 end
